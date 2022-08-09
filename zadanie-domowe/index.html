@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="https://formspree.io/f/xoqbardo" method="POST">
+        <label for="imie">imie</label><br>
+        <input type="text" id="imie" name="imie" ><br>
+        <label for="nazwisko">Nazwisko</label><br>
+        <input type="text" id="nazwisko" name="nazwisko"><br>
+        <label for="email">Mail</label><br>
+        <input type="text" id="email" name="email"><br>
+        <br>
+        <label for="miasto">Wybór miasta</label><br>  
+        <select name="miasto" id="miasto">
+            <option value="empty">-</option>
+            <option value="Kraków">Kraków</option>
+            <option value="Warszawa">Warszawa</option>
+            <option value="Gdańsk">Gdańsk</option>
+        </select><br>
+        <br>
+        <div>Płeć</div>cd
+        <input type="radio" id="kobieta" name="plec" value="kobieta">
+        <label for="kobieta">K</label><br>
+        <input type="radio" id="mezczyzna" name="plec" value="mezczyzna">
+        <label for="mezczyzna">M</label><br>
+        <br> 
+        <label for="zgoda">Zgoda na dane osobowe</label>
+        <input type="checkbox" id="zgoda" name="zgoda"><br>
+        <br>
+        <label for="wiadomosc">Wiadomość</label><br>
+        <textarea name="wiadomosc" id="wiadomosc" cols="30" rows="10"></textarea>
+       <br>
+       <br> 
+        <input type="submit" value="Wyślij">
+    
+    </form>
+    
+</body>
+</html>
