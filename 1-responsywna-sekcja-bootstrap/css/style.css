@@ -1,0 +1,23 @@
+.skills {
+    text-align: center;
+    color: grey;
+    font-weight: 100;
+    font-size: 1em;
+}
+
+#title {
+    font-size: 1.3em;
+}
+
+hr {
+    width: 30%;
+}
+
+i {
+    color: rgb(220, 147, 10);
+    background-color: rgb(235, 231, 231);
+    border-radius: 60%;
+    padding: 30px;
+}
+
+
